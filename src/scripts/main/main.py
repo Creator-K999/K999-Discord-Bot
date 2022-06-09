@@ -1,4 +1,10 @@
+from gc import disable
+
+from main_class import MainClass
+
+
 def main():
+    disable()
     ...
 
 
