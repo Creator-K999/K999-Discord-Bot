@@ -27,7 +27,7 @@ class Log:
                     f"\n\tFILE: {caller_info.filename}"
                     f"\n\tFUNC: {caller_info.function}"
                     f"\n\tLINE: {caller_info.lineno}"
-                    f"\n\tMESSAGE: {message}"
+                    f"\n\tMESSAGE: {message}\n"
                     ,)
             ).start()
 
@@ -45,7 +45,7 @@ class Log:
                     f"\n\tFILE: {caller_info.filename}"
                     f"\n\tFUNC: {caller_info.function}"
                     f"\n\tLINE: {caller_info.lineno}"
-                    f"\n\tMESSAGE: {message}"
+                    f"\n\tMESSAGE: {message}\n"
                     ,)
             ).start()
 
@@ -63,7 +63,7 @@ class Log:
                     f"\n\tFILE: {caller_info.filename}"
                     f"\n\tFUNC: {caller_info.function}"
                     f"\n\tLINE: {caller_info.lineno}"
-                    f"\n\tMESSAGE: {message}"
+                    f"\n\tMESSAGE: {message}\n"
                     ,)
             ).start()
 
@@ -81,7 +81,7 @@ class Log:
                     f"\n\tFILE: {caller_info.filename}"
                     f"\n\tFUNC: {caller_info.function}"
                     f"\n\tLINE: {caller_info.lineno}"
-                    f"\n\tMESSAGE: {message}"
+                    f"\n\tMESSAGE: {message}\n"
                     ,)
             ).start()
 
@@ -99,7 +99,7 @@ class Log:
                     f"\n\tFILE: {caller_info.filename}"
                     f"\n\tFUNC: {caller_info.function}"
                     f"\n\tLINE: {caller_info.lineno}"
-                    f"\n\tMESSAGE: {message}"
+                    f"\n\tMESSAGE: {message}\n"
                     ,)
             ).start()
 
@@ -117,6 +117,6 @@ class Log:
                     f"\n\tFILE: {caller_info.filename}"
                     f"\n\tFUNC: {caller_info.function}"
                     f"\n\tLINE: {caller_info.lineno}"
-                    f"\n\tMESSAGE: {message}"
+                    f"\n\tMESSAGE: {message}\n"
                     ,)
             ).start()
