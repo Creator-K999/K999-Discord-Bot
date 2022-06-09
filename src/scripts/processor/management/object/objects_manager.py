@@ -15,7 +15,7 @@ class ObjectsManager:
 
         try:
             cls.__objects[object_name] = _object(*args, **kwargs)
-            print("")
+            print(f"Successfully created {repr_name}")
             return cls.__objects[object_name]
 
         except Exception as E:
