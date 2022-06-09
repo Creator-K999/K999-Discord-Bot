@@ -1,4 +1,5 @@
 from gc import disable
+from threading import enumerate as threads_enumerate
 
 from main_class import MainClass
 from processor.logger.log import Log
@@ -20,6 +21,13 @@ def main():
 
     ObjectsManager.delete_object("MainClass")
     ObjectsManager.detect_clear_memory_leaks()
+
+    for thread in threads_enumerate():
+        if thread.name != "MainThread":
+            print(f"Warning! {thread.name} is still running!")
+            thread.join()
+
+    print("Waited for all threads!")
 
 
 if __name__ == '__main__':
