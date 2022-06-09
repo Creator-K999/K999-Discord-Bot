@@ -2,6 +2,9 @@ class ObjectsManager:
 
     __objects = {}
 
+    def __init__(self):\
+        raise NotImplementedError("Cannot create instance of ObjectsManager!")
+
     @classmethod
     def create_object(cls, _object, *args, **kwargs):
 
