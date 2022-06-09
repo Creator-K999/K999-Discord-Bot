@@ -29,6 +29,14 @@ class ObjectsManager:
             return None
 
     @classmethod
+    def get_object_by_name(cls, object_name):
+        if object_name in cls.__objects:
+            Log.info(f"Found instance of {object_name}")
+            return cls.__objects[object_name]
+
+        Log.warning(f"Couldn't find an instance of {object_name}!")
+
+    @classmethod
     def delete_object(cls, object_name):
 
         if object_name not in cls.__objects:
