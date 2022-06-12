@@ -15,7 +15,7 @@ class MainClass:
         Log.debug("running the application!")
 
         try:
-            self.__bot.run("OTI3NTMxNjkzMDkzNTYwMzMw.YdLlNA.4chF-w9-WaoVj_DRIy6Bqq5MUKA")
+            self.__bot.run("token")
 
         except RuntimeError:
             Log.info("Exiting the application...!")
